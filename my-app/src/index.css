@@ -1,0 +1,32 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0d0d0f;
+  --surface: #18181b;
+  --surface-hover: #222227;
+  --border: #2a2a30;
+  --accent: #e50914;
+  --accent-hover: #ff1a25;
+  --text-primary: #f4f4f5;
+  --text-secondary: #a1a1aa;
+  --gold: #f5c518;
+  --like: #e84393;
+  --like-hover: #ff57a8;
+  --radius: 12px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+}
